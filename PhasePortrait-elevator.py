@@ -1,5 +1,5 @@
 """
-Elevator figure — honest to the actual directed coupled-population model.
+Elevator figure
 
 Key design decisions:
   - T=50000, burn=5000 → stationary distribution, no transient artefacts
@@ -402,6 +402,3 @@ plt.suptitle(
     color='white', fontsize=11, y=1.01)
 
 plt.tight_layout(rect=[0.0, 0.04, 1.0, 1.0])
-plt.savefig('/mnt/user-data/outputs/elevator_honest.png',
-            dpi=165, bbox_inches='tight', facecolor='#0e0e14')
-print("Saved elevator_honest.png")
