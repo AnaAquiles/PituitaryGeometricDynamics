@@ -12,7 +12,8 @@ from scipy.ndimage import gaussian_filter1d
 
 
 """
-         1) SPECTROGRAM COMPUTATION
+         1) SIGNAL DETREND AND NORMALIZATION 
+         Note : Two options of normalization (linear - exponential)
 
  """
 datos = np.swapaxes(data, 0, 1)
