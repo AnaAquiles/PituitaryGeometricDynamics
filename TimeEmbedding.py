@@ -1,8 +1,5 @@
 """
                      EMBEDDING TIME 2.0 correction
-
- to perform same logic computation with all my time series datasets divided by popA and PopB, how could I do ? 
-
 """
 
 import numpy as np
