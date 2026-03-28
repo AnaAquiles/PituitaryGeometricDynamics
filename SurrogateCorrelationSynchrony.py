@@ -1,3 +1,15 @@
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from scipy import stats
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import confusion_matrix
+from sklearn.model_selection import cross_val_score
+
+plt.style.use("fivethirtyeight")
+
 """
 
 Two-stage analysis of pairwise cell interactions from calcium fluorescence
@@ -26,16 +38,6 @@ datosNorm_exponential : np.ndarray, shape (n_cells, n_samples)
     Drift-corrected, low-pass-filtered fluorescence traces from preprocessing.
 """
 
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-from scipy import stats
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import confusion_matrix
-from sklearn.model_selection import cross_val_score
-
-plt.style.use("fivethirtyeight")
 
 N_SAMPLES   = 300          # number of time points used for correlation
 N_SURROGATE = 1_000        # number of Fourier surrogate resamples
