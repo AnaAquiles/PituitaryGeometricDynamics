@@ -4,7 +4,7 @@
 
 ---
 
-## 🧠 Overview  
+## 👀 Overview  
 This repository contains all the code used in our study on *population geometry coupling* (preprint coming soon). In this work, we identify **two classes of spontaneous calcium activity** by evaluating two types of structural interactions:
 
 - **Homotypic interactions**: within the same cell group  
