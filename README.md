@@ -26,14 +26,13 @@ This repository provides a complete framework to explore the **intrinsic dynamic
 
 The pipeline is structured as follows:
 
----
 
 ### 🧹 0. Preprocessing  
 Initial conditioning and preparation of calcium signals.
 
 - `preprocessing.py`
 
----
+
 
 ### 🌊 1. Signal Decomposition  
 Separation of **periodic** and **aperiodic** components, and spectral characterization.
@@ -42,7 +41,7 @@ Separation of **periodic** and **aperiodic** components, and spectral characteri
 - `PAC.py` → phase-amplitude coupling analysis  
 - `SignalClasses.py` → classification of oscillatory regimes  
 
----
+
 
 ### 📊 2. Feature Extraction  
 
@@ -54,7 +53,7 @@ Separation of **periodic** and **aperiodic** components, and spectral characteri
 - `AperiodicClusterAdjacency.py` → adjacency structure from aperiodic features  
 - `SurrogateCorrelationSynchrony.py` → surrogate-based validation of synchrony  
 
----
+
 
 ### 🧭 3. Population-Level & Geometric Analysis  
 
@@ -64,7 +63,7 @@ Exploration of the **geometry of the activity landscape** and synchrony structur
 - `QuasipotentialDominance.py` → dominance landscape / quasipotential analysis  
 - `PhasePortrait-elevator.py` → dynamical phase space exploration  
 
----
+
 
 ### ⚖️ 4. Dynamical Regimes & Bistability  
 
@@ -74,7 +73,7 @@ Characterization of emergent collective states.
 
 This analysis revealed a **transient bistable state** in heterotypic interactions, suggesting dynamics consistent with a **Hopf oscillator**, where one class of signals may act as a *leader* driving secretory pulses.
 
----
+
 
 ## 🤖 Modeling  
 
