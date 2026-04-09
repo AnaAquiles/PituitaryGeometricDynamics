@@ -42,7 +42,7 @@ conda activate your_env_name
 ### 🔧  Preprocessing
 Once your environment is ready, you can start preparing your calcium signals for analysis.
 
-This step focuses on cleaning and standardizing your data by handling: photobleaching correction,noise reduction, fluorescence normalization
+This step focuses on cleaning and standardizing your data by handling: photobleaching correction,noise reduction, fluorescence normalization.
 All preprocessing steps are implemented in:
 
 - `preprocessing.py`
